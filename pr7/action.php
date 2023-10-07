@@ -21,7 +21,7 @@
 
 try{
     $connection = new PDO('mysql:host='.$host.';dbname='.$dbname.';charset=utf8', $user, $password);
-   // echo ('Подключение успешно');
+   
    
 }
     catch(PDOException $ex){
