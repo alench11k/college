@@ -30,9 +30,8 @@ try{
       
         
         $select = $connection-> prepare ("SELECT COUNT(`id`) as cnt from `users` where `login`=? or `mail`= ?;");
-        $result=$select->execute([$_POST[`login`],$_POST[`mail`]]);
+        $result=$select->execute([$_POST['login'],$_POST['mail']]);
         $row=$select->fetch();
-        var_dump($result, $row, $_POST, $select);
         
         if(!$result) {
             exit('Ошибка регистрации');
