@@ -1,0 +1,15 @@
+html {
+    background: rgb(162, 162, 253);
+    background-size: cover;
+    color: beige;
+    height: 100%;
+}
+
+main {
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+}
+
+footer {
+    padding-top: 2vh;
+}
